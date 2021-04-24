@@ -126,7 +126,7 @@
     <div id="start-stop">
         <button id="start" on:click={pomoButtonPress}>{playCommand}</button>
     </div>
-    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script src="https://sdk.scdn.co/spotify-player.js" defer></script>
 </main>
 
 <style lang="scss">
