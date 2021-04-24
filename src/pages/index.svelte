@@ -1,6 +1,5 @@
 <script lang="ts" defer>
     import { metatags } from '@roxi/routify';
-    import Serviceworker from './Serviceworker.svelte';
     metatags.title = 'Pomofy';
     metatags.description = 'Pomodoro Timer with Spotify Integration';
     let timerElement: HTMLElement;
@@ -129,7 +128,6 @@
     </div>
     <script src="https://sdk.scdn.co/spotify-player.js"></script>
 </main>
-<Serviceworker />
 
 <style lang="scss">
     h1,
