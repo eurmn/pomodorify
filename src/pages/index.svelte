@@ -99,7 +99,7 @@
                         'https://accounts.spotify.com/authorize' +
                             '?client_id=be3d4b654a8347b8a805a6802eadce1b' +
                             '&response_type=token' +
-                            '&redirect_uri=http://localhost:5000/callback' +
+                            `&redirect_uri=${window.location.href}/callback` +
                             '&scope=streaming%20user-read-email%20user-read-private'
                     );
                 }
