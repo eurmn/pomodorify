@@ -1,4 +1,5 @@
 <script lang="ts" defer>
+    import './spotify-player';
     import { metatags } from '@roxi/routify';
     metatags.title = 'Pomofy';
     metatags.description = 'Pomodoro Timer with Spotify Integration';
@@ -99,7 +100,7 @@
                         'https://accounts.spotify.com/authorize' +
                             '?client_id=be3d4b654a8347b8a805a6802eadce1b' +
                             '&response_type=token' +
-                            `&redirect_uri=${encodeURIComponent(window.location.href)}/callback` +
+                            `&redirect_uri=${encodeURIComponent(window.location.href)}callback` +
                             '&scope=streaming%20user-read-email%20user-read-private'
                     );
                 }
@@ -126,7 +127,6 @@
     <div id="start-stop">
         <button id="start" on:click={pomoButtonPress}>{playCommand}</button>
     </div>
-    <script src="https://sdk.scdn.co/spotify-player.js" defer></script>
 </main>
 
 <style lang="scss">
