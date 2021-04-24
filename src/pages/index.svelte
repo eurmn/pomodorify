@@ -1,5 +1,4 @@
 <script lang="ts" defer>
-    import './spotify-player';
     import { metatags } from '@roxi/routify';
     metatags.title = 'Pomofy';
     metatags.description = 'Pomodoro Timer with Spotify Integration';
@@ -127,6 +126,7 @@
     <div id="start-stop">
         <button id="start" on:click={pomoButtonPress}>{playCommand}</button>
     </div>
+    <script src="https://sdk.scdn.co/spotify-player.js" defer />
 </main>
 
 <style lang="scss">
