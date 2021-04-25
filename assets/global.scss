@@ -2,8 +2,8 @@
 
 html {
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -12,6 +12,19 @@ body {
     display: grid;
     place-items: center;
     background: slateblue;
+    div :global(.git-icon) {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 2em;
+        color: white;
+        cursor: pointer;
+        transition: transform 200ms;
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
 }
 
 * {

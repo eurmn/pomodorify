@@ -1,8 +1,8 @@
 {
-  "background_color": "#ffffff",
-  "theme_color": "#E938C2",
-  "name": "Routify app",
-  "short_name": "Routify app",
+  "background_color": "#6a5acd",
+  "theme_color": "#6a5acd",
+  "name": "Pomofy",
+  "short_name": "Pomofy",
   "start_url": "/",
   "display": "standalone",
   "icons": [
