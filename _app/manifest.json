@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-2192bafb.js",
+    "file": "start-80256b58.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -60,7 +60,7 @@
     ]
   },
   "src/routes/callback.svelte": {
-    "file": "pages/callback.svelte-9ff7ba4b.js",
+    "file": "pages/callback.svelte-063773a0.js",
     "src": "src/routes/callback.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
