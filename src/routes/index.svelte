@@ -100,7 +100,7 @@
         Math.floor(timer % 60)
           .toString()
           .padStart(2, '0');
-    }, 10);
+    }, 1000);
     colorInterval = window.setInterval(changeHue, 12000);
     if (timer < 1500) {
       player.resume();
@@ -178,8 +178,8 @@
 </script>
 
 <main
-  class="antialiased w-full h-full bg-gradient-to-br
-  from-indigo-900 to-blue-900 text-white p-5"
+  class="antialiased w-full h-full bg-gradient-to-b from-indigo-900
+    to-blue-900 text-white p-5"
 >
   <div class="w-full text-center text-5xl">
     <span
