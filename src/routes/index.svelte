@@ -191,7 +191,7 @@
   </div>
   <div class="w-full h-full flex items-center justify-center">
     <div
-      class="h-4/5 md:h-2/3 w-full md:w-auto md:aspect-[9/10] bg-gradient-to-t shadow-lg
+      class="w-full md:w-1/3 bg-gradient-to-t shadow-lg
      from-stone-800 to-stone-900 p-4 font-poppins relative flex flex-col"
     >
       <div>Focus Playlist:</div>
@@ -217,9 +217,9 @@
         >
         <hr class="bg-blue-900 h-[3px] border-none my-4 w-full" />
         <div class="w-full h-full flex flex-col items-center">
-          <span class="text-center flex flex-col items-center justify-center flex-1
-            {songName ? '' : ' hidden'}">
-            <img src={songImg} width="150px" height="150px" alt="Album Cover"/>
+          <span class="text-center flex flex-col items-center justify-center flex-1 h-full
+            {songName ? '' : ' invisible'}">
+            <img src={songImg} width="150px" height="150px" alt=" Album Cover"/>
             <div class="names my-2">
               <p id="title">{songName}</p>
               <p class="text-xs text-gray-400">{songArtists}</p>
