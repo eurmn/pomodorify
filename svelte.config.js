@@ -16,7 +16,6 @@ const config = {
   kit: {
     trailingSlash: 'always',
 		adapter: adapter({
-			// default options are shown
 			pages: 'build',
 			assets: 'build',
 			fallback: '200.html',
