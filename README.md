@@ -1,7 +1,7 @@
 # Pomodorify
 Simple webapp to integrate spotify into a pomodoro timer.
 
-[❤️ Live Website Here](https://eurmn.github.io/pomodorify/)
+[❤️ Live Website Here](https://eurmn.github.io/pomodorify/) (not working right now due to a change in my github username, will fix it soon)
 
 ## Todo:
   - [ ] Allow changing the time of break/focus.
